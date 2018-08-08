@@ -9,7 +9,7 @@ import (
 	flag "github.com/spf13/pflag"        // POSIX/GNU-style CLI arguments.
 	"github.com/stretchr/testify/assert" // More readable test assertions.
 
-	"github.com/marccarre/kubernetes-deployment-strategies-workload/pkg/db"
+	"github.com/weaveworks-experiments/kubernetes-deployment-strategies-workload/pkg/db"
 )
 
 func TestParsingEmptyArgumentsShouldReturnDefaultConfig(t *testing.T) {

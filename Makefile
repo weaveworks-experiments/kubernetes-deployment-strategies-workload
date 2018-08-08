@@ -1,6 +1,6 @@
 .PHONY: all default build test integration-test push clean
 
-NAME := marccarre/kds-service
+NAME := weaveworks/kds-service
 VERSION := $(shell ./scripts/version)
 BUILD_DATE := $(shell date -u +'%Y-%m-%dT%H:%M:%SZ')
 BUILD_IMAGE := golang:1.10-alpine
@@ -8,7 +8,7 @@ CURRENT_DIR := $(dir $(realpath $(firstword $(MAKEFILE_LIST))))
 
 GO_SOURCES := $(shell find . -name '*.go')
 GO_BINARY := ./cmd/service/service
-GO_PROJECT_PATH := github.com/marccarre/kubernetes-deployment-strategies-workload
+GO_PROJECT_PATH := github.com/weaveworks-experiments/kubernetes-deployment-strategies-workload
 
 default: build
 all: build test integration-test

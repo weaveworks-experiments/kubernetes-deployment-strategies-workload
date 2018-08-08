@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert" // More readable test assertions.
 
-	"github.com/marccarre/kubernetes-deployment-strategies-workload/pkg/domain"
+	"github.com/weaveworks-experiments/kubernetes-deployment-strategies-workload/pkg/domain"
 )
 
 var user = domain.User{

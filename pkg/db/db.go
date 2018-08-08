@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/marccarre/kubernetes-deployment-strategies-workload/pkg/domain"
+	"github.com/weaveworks-experiments/kubernetes-deployment-strategies-workload/pkg/domain"
 )
 
 // SchemaVersion is the current version of the DB schema.

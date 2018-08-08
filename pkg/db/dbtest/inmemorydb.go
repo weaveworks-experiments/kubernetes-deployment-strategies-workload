@@ -6,8 +6,8 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/marccarre/kubernetes-deployment-strategies-workload/pkg/db"
-	"github.com/marccarre/kubernetes-deployment-strategies-workload/pkg/domain"
+	"github.com/weaveworks-experiments/kubernetes-deployment-strategies-workload/pkg/db"
+	"github.com/weaveworks-experiments/kubernetes-deployment-strategies-workload/pkg/domain"
 )
 
 // InMemoryDB is an in-memory implementation of DB. This is mainly useful for testing.

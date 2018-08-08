@@ -11,8 +11,8 @@ import (
 	"github.com/gorilla/mux"             // Better HTTP API.
 	"github.com/stretchr/testify/assert" // More readable test assertions.
 
-	"github.com/marccarre/kubernetes-deployment-strategies-workload/pkg/db/dbtest"
-	"github.com/marccarre/kubernetes-deployment-strategies-workload/pkg/server"
+	"github.com/weaveworks-experiments/kubernetes-deployment-strategies-workload/pkg/db/dbtest"
+	"github.com/weaveworks-experiments/kubernetes-deployment-strategies-workload/pkg/server"
 )
 
 const (

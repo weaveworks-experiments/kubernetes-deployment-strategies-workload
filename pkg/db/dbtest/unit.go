@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert" // More readable test assertions.
 
-	"github.com/marccarre/kubernetes-deployment-strategies-workload/pkg/db"
+	"github.com/weaveworks-experiments/kubernetes-deployment-strategies-workload/pkg/db"
 )
 
 // Setup sets up a new in-memory database.

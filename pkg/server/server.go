@@ -10,8 +10,8 @@ import (
 	"github.com/gorilla/mux"         // Better HTTP API.
 	log "github.com/sirupsen/logrus" // Better Logging.
 
-	"github.com/marccarre/kubernetes-deployment-strategies-workload/pkg/db"
-	"github.com/marccarre/kubernetes-deployment-strategies-workload/pkg/domain"
+	"github.com/weaveworks-experiments/kubernetes-deployment-strategies-workload/pkg/db"
+	"github.com/weaveworks-experiments/kubernetes-deployment-strategies-workload/pkg/domain"
 )
 
 // HTTPServer is an HTTP server reading users from the configured database.

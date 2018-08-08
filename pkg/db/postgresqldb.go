@@ -11,7 +11,7 @@ import (
 	_ "github.com/lib/pq"                                 // DB PostgreSQL drivers.
 	log "github.com/sirupsen/logrus"                      // Better Logging.
 
-	"github.com/marccarre/kubernetes-deployment-strategies-workload/pkg/domain"
+	"github.com/weaveworks-experiments/kubernetes-deployment-strategies-workload/pkg/domain"
 )
 
 // PostgreSQLDB is a PostgreSQL-compatible implementation of DB.

@@ -1,6 +1,6 @@
 # kubernetes-deployment-strategies-workload
 
-Sample workload for the demo available at [github.com/marccarre/kubernetes-deployment-strategies](https://github.com/marccarre/kubernetes-deployment-strategies).
+Sample workload for the demo available at [github.com/weaveworks-experiments/kubernetes-deployment-strategies](https://github.com/weaveworks-experiments/kubernetes-deployment-strategies).
 
 Features:
 

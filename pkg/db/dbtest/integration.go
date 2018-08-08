@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert" // More readable test assertions.
 
-	"github.com/marccarre/kubernetes-deployment-strategies-workload/pkg/db"
+	"github.com/weaveworks-experiments/kubernetes-deployment-strategies-workload/pkg/db"
 )
 
 // Setup sets up a new in-memory database.
@@ -16,7 +16,7 @@ func Setup(t *testing.T) db.DB {
 	// in the Makefile, under the integration-test target:
 	config := &db.Config{
 		RawURI:        "postgres://postgres@users-db.local:5432/users_test?sslmode=disable",
-		MigrationsDir: "/go/src/github.com/marccarre/kubernetes-deployment-strategies-workload/pkg/db/migrations",
+		MigrationsDir: "/go/src/github.com/weaveworks-experiments/kubernetes-deployment-strategies-workload/pkg/db/migrations",
 		SchemaVersion: db.SchemaVersion,
 	}
 	database, err := db.NewPostgreSQLDB(config)
